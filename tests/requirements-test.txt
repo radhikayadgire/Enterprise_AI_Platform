@@ -1,0 +1,7 @@
+# Test automation dependencies
+pytest>=7.4.0
+playwright>=1.40.0
+pytest-xdist>=3.3.0  # For parallel test execution
+
+# Application dependencies (required to run the app during tests)
+-r ../requirements.txt
